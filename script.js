@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             row.innerHTML = `
                 <td>${expense.name}</td>
-                <td>$${expense.amount.toFixed(2)}</td>
+                <td>₹${expense.amount.toFixed(2)}</td>
                 <td>${expense.category}</td>
                 <td>${expense.date}</td>
                 <td>
